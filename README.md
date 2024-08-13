@@ -18,4 +18,32 @@ To inspect and clean the data I focused on one dataset at a time. I started with
 Next the salary cap data was looked at. 
 One column was dropped, and the DataFrame was formatted. Each column is checked individually. I did find a few rows with a missing age value. I reseached this and was able to get the proper value in place. 
 ### Analysis
-The salary cap data is grouped by year and position to find the average cap hit percentage for each position by year. A function is created to depict this. The plots are split into different categories of offense, defense, special teams, offensive line, backfield, pass catchers, defensive line, linebackers, and secondary. 
+The salary cap data is grouped by year and position to find the average cap hit percentage for each position by year. A function is created to depict this. The plots are split into different categories of offense, defense, special teams, offensive line, backfield, pass catchers, defensive line, linebackers, and secondary.   
+Next, the merge, groupby, and pivot_table built-in functions are used to discover the correlation of positional cap hit percentage and win/loss record from the regular season. These correlations are plotted out in a bar chart. 
+### Results
+## Position by Position Breakdown:
+# Offense:
+Quarterback:   
+Runningback:   
+Fullback:   
+Wide Receiver:   
+Tight End:   
+Left Tackle:   
+Right Tackle:   
+Tackle:   
+Guard:   
+Center:   
+# Defense:
+Defensive End:   
+Defensive Tackle:   
+Outside Linebacker:   
+Inside Linebacker:   
+Linebacker:   
+Cornerback:   
+Free Safety:   
+Strong Safety:   
+Safety:   
+# Special Teams:
+Kicker:   
+Punter:   
+Long Snapper:   
