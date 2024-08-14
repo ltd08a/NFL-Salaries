@@ -23,7 +23,7 @@ Next, the merge, groupby, and pivot_table built-in functions are used to discove
 ## Results
 ### Position by Position Breakdown:
 #### Offense:
-Quarterback:   
+Quarterback: With a correlation coefficient of 0.243, this position has the highest return on investment when it comes to cap hit percentage and winning games.    
 Runningback:   
 Fullback:   
 Wide Receiver:   
