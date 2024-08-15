@@ -19,7 +19,8 @@ Next the salary cap data was looked at.
 One column was dropped, and the DataFrame was formatted. Each column is checked individually. I did find a few rows with a missing age value. I reseached this and was able to get the proper value in place. 
 ### Analysis:
 The salary cap data is grouped by year and position to find the average cap hit percentage for each position by year. A function is created to depict this. The plots are split into different categories of offense, defense, special teams, offensive line, backfield, pass catchers, defensive line, linebackers, and secondary.   
-Next, the merge, groupby, and pivot_table built-in functions are used to discover the correlation of positional cap hit percentage and win/loss record from the regular season. These correlations are plotted out in a bar chart. 
+Next, the merge, groupby, and pivot_table built-in functions are used to discover the correlation of positional cap hit percentage and win/loss record from the regular season. These correlations are plotted out in a bar chart.   
+These steps are then repeated with correlations for playoff wins and superbowl wins.
 ## Results
 ### Position by Position Breakdown:
 #### Offense:
