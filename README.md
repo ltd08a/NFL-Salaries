@@ -24,31 +24,3 @@ Next the salary cap data was looked at. One column was dropped, and the DataFram
 The salary cap data is grouped by year and position to find the average cap hit percentage for each position by year. A function is created to depict this. The plots are split into different categories of offense, defense, special teams, offensive line, backfield, pass catchers, defensive line, linebackers, and secondary.   
    
 Next, the merge, groupby, and pivot_table built-in functions are used to discover the correlation of positional cap hit percentage and win/loss record from the regular season. These correlations are plotted out in a bar chart. These steps are then repeated with correlations for playoff wins and superbowl wins.
-## Results
-### Position by Position Breakdown:
-#### Offense:
-Quarterback: Anyone who knows football will tell you that the quarterback position is the single most important need for football teams. With a correlation coefficient of 0.243, this position has the highest return on investment when it comes to cap hit percentage and winning regular season games. Interestingly, we see this position come in at third in terms of playoff win influence with a coefficient of 0.148. To be fair, the two positions ahead of it are safety and strong safety. These can be rolled into one category in many cases. The same scenario is present when looking into super bowl wins.    
-Runningback: We've seen the league become passing focused over the years, and the data clearly reflects that. Runningbacks rank 16th with a coefficient of 0.067 for regular season wins. It gets worse as we get into the playoffs, with a slide to the 17th spot and a score of 0.034. This position goes back up to number 16, but has a correlation of 0.001, which barely registers as positive.    
-Fullback: Fullbacks are a forgotten concept on most teams. They rank 20th out of 22 positions, and have a hardly noticeable influence of 0.014 for regular season wins.    
-Wide Receiver:   
-Tight End:   
-Left Tackle:   
-Right Tackle:   
-Tackle:   
-Guard:   
-Center:   
-#### Defense:
-Defensive End:   
-Defensive Tackle:   
-Outside Linebacker:   
-Inside Linebacker:   
-Linebacker:   
-Cornerback:   
-Free Safety:   
-Strong Safety:   
-Safety:   
-#### Special Teams:
-Kicker:   
-Punter:   
-Long Snapper:   
-## Conclusion
